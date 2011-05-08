@@ -20,11 +20,21 @@ ________________________
 +minor corrections
 ________________________
 
-
-Full Content List (Version 0.2)
+Version 0.3 / 08.05.2011
 ________________________
- Objective-C - Entries(16):
++Added 5 Entries (mainly Cocos2D)
++minor corrections
+________________________
+
+
+Full Content List (Version 0.3)
+________________________
+ Objective-C - Entries(20):
 ______________________
+-Dynamic Typing (NEW)
+-Protocol | Delegate (NEW)
+-Categories | Expanding existing Class functionality (NEW)
+-Overriding Superclass methods (NEW)
 -Switch
 -Operators
 -Enumerations
@@ -105,6 +115,7 @@ ______________________
 -Detect Objects outside screen
 -Recognizing Device
 
-XCode - Entries(1):
+XCode - Entries(2):
 ______________________
+-Breakpoints (NEW)
 -Disable Icon Gloss
