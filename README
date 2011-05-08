@@ -19,3 +19,92 @@ ________________________
 +Added 35 Entries (mainly Cocos2D)
 +minor corrections
 ________________________
+
+
+Full Content List (Version 0.2)
+________________________
+ Objective-C - Entries(16):
+______________________
+-Switch
+-Operators
+-Enumerations
+-Preprocessor Directives
+-Class / Object
+-Function
+-Method / Messages
+-Getters / Setter (Properties)
+-Header / Implementation
+-Memory Management
+-Array
+-Loops
+-Dictionary
+-Data Types
+-NSString
+-File Management
+
+Cocos2D - Entries(61):
+______________________
+-Install Cocos2D
+-Basic Scene Setup
+-Spacemanager Basic Setup
+-CCMenu
+-Dragging a CCSprite
+-CCLabelTTF
+-Vibration
+-CCSpawm
+-CCFollow
+-Change Z-Order during runtime
+-Custom Fonts
+-Mute
+-Include Game Center
+-Animation Helper
+-Using Spritesheets
+-Falling Sprites
+-Random Numbers
+-Getter/Setter
+-Touch Basic & Is touch on sprite
+-Effects
+-CCLabelBMFont
+-Actions
+-Accelerometer
+-Particels
+-CCScene
+-CCLayer
+-CCLayerColor
+-CCMotionStreak
+-CCPralaxNode
+-CCProgressTimer
+-CCRibbon
+-CCScrollLayer
+-CCSprite
+-CCSpriteBatchNode
+-Chipmunk Basic Setup
+-Basic Collision Detection
+-CCNode Subclass
+-Loading Scene
+-Touch Basics
+-Endless Scrolling
+-Moving things without actions
+-CCNode properties
+-CCNode basics
+-Node Tags
+-onEnter / onExit methods
+-Right / Left button setup
+-SaveSystem Class
+-Scene Transitions
+-Schedule Events
+-Shared Scene
+-SneakyInput
+-Sound / Music
+-Spacemanager | Moving static shapes (with actions)
+-Spacemanager Step by Step Tutorial
+-Spacemanager subclassing shapes (cpCCSprite)
+-Spacemanager Collisions
+-Spacemanager using constraints
+-ccpAdd
+-Detect Objects outside screen
+-Recognizing Device
+
+XCode - Entries(1):
+______________________
+-Disable Icon Gloss
