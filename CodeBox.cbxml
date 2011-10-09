@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>520E6BAA-AB24-492B-94F0-B2F7E78F4CC0</UUID>
-        <nextObjectID>1276</nextObjectID>
+        <nextObjectID>1279</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -310,7 +310,7 @@ KCkgewoJLy9kbyBzdHVmZgp9CgovL3RvICJ0cmlnZ2VyIiBmdW5jdGlvbjoKbXlGdW5jdGlvbiAoKTsK
     </object>
     <object type="TAG" id="z149">
         <attribute name="name" type="string">if</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127 z199 z936 z1102 z848 z112"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127 z112 z848 z1102 z936 z199 z1278"></relationship>
     </object>
     <object type="SNIPPET" id="z150">
         <attribute name="name" type="string">Dragging CCSprite</attribute>
@@ -1065,7 +1065,7 @@ YWxQbGF5ZXJBdXRoZW50aWNhdGlvbkNoYW5nZWQKewoJR0tMb2NhbFBsYXllciogbG9jYWxQbGF5ZXIg
     </object>
     <object type="TAG" id="z288">
         <attribute name="name" type="string">conditional</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127 z1278"></relationship>
     </object>
     <object type="TAG" id="z289">
         <attribute name="name" type="string">ternary</attribute>
@@ -4721,7 +4721,7 @@ Y29tIiwiZGJvMzc2MDA5MDUwIiwiYzRkdml6ODQwMyIpOwoKCSRkYlNlbGVjdCA9IG15c3FsX3NlbGVj
     </object>
     <object type="TAG" id="z913">
         <attribute name="name" type="string">timestamp</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1274 z920"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1274 z920 z1278"></relationship>
     </object>
     <object type="TAG" id="z914">
         <attribute name="name" type="string">unix</attribute>
@@ -4733,7 +4733,7 @@ Y29tIiwiZGJvMzc2MDA5MDUwIiwiYzRkdml6ODQwMyIpOwoKCSRkYlNlbGVjdCA9IG15c3FsX3NlbGVj
     </object>
     <object type="TAG" id="z916">
         <attribute name="name" type="string">date</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z920 z1274 z1224 z1217"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1278 z1274 z1224 z1217 z920"></relationship>
     </object>
     <object type="TAG" id="z917">
         <attribute name="name" type="string">hours</attribute>
@@ -5552,7 +5552,7 @@ IG9uIGFuIGVsZW1lbnQKJCgiI2hlYWRlciBpbWciKS5hdHRyKCJzcmMiLCAicGljXzIuanBnIikuYXR0
     </object>
     <object type="TAG" id="z1057">
         <attribute name="name" type="string">after</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1047"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1047 z1278"></relationship>
     </object>
     <object type="TAG" id="z1058">
         <attribute name="name" type="string">append</attribute>
@@ -6545,7 +6545,7 @@ c3RydG90aW1lKCRkYXRlU3RyaW5nKTsKJGZvcm1hdGVkRGF0ZSA9IGRhdGUoJyBkIEYgWSBIOmknLCAk
     </object>
     <object type="TAG" id="z1225">
         <attribute name="name" type="string">time</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1274 z1224"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1274 z1224 z1278"></relationship>
     </object>
     <object type="ASSET" id="z1226">
         <attribute name="content" type="binary">TlNTdHJpbmcgKm15U3RyaW5nID0gW1tOU1N0cmluZyBhbGxvY10gaW5pdFdpdGhEYXRhOm15RGF0
@@ -6822,5 +6822,25 @@ Y2x1ZGUvZnVuY3Rpb25zLnBocCcpOwoKLy8yLiBHZXQgUlNTIGZlZWQgYW5kIGxvYWQgaW50byByc3Nf
 ICAkcnNzID0gc2ltcGxleG1sX2xvYWRfZmlsZSgkdXJsKTsgIC8vRmV0Y2ggUlNTIHdpdGggc2ltcGxleG1sCiAgICAgICAgICAgIAogICAgICRyc3NfYXJyYXkgPSBhcnJheSgpOwogICAgIGZvcmVhY2ggKCRyc3MtPmNoYW5uZWwtPml0ZW0gYXMgJGl0ZW0pIHsKICAgICAgICAgIGlmICgkbnVtcG9zdHMgPT0gMCkgewogICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICRsaW5rID0gKHN0cmluZykgJGl0ZW0tPmxpbms7ICAvL0xpbmsgdG8gcG9zdAogICAgICAgICAgICAgICAkdGl0bGUgPSAoc3RyaW5nKSAkaXRlbS0+dGl0bGU7ICAvL1RpdGxlCiAgICAJCQkJCiAgICAgICAgICAgICAgIC8vQ29udmVydCB0aXRsZSBpbnRvIElTTy04ODU5LTEgKHNvbHZlcyBzcGVjaWFsIHN5bWJvbCBwcm9ibGVtKQogICAgICAgICAgICAgICAkdGl0bGUgPSBpY29udiggIlVURi04IiwgIklTTy04ODU5LTEvL1RSQU5TTElUIiwgJHRpdGxlKTsJCQogICAgCQkJCiAgICAgICAgICAgICAgIC8vR2V0IHRoZSBkYXRlCiAgICAgICAgICAgICAgICRwdWJkYXRlID0gc3RydG90aW1lKCRpdGVtLT5wdWJEYXRlKTsKICAgICAgICAgICAgICAgJHByb3BlcnRpbWUgPSBnbWRhdGUoJ0YgalMgWSwgSDppJywgJHB1YmRhdGUpOyAgLy9DdXN0b21pemUgdGhpcyB0byB5b3VyIGxpa2luZwogICAgCQkJCiAgICAgICAgICAgICAgIC8vRGVzY3JpcHRpb24gb3IgcG9zdCBzdW1tYXJ5CQogICAgICAgICAgICAgICAkZGVzYyA9ICRpdGVtLT5kZXNjcmlwdGlvbjsKICAgIAkJCQkKICAgICAgICAgICAgICAgLy8gdHVybiBVUkxzIGludG8gaHlwZXJsaW5rcwogICAgICAgICAgICAgICAkZGVzYyA9IHByZWdfcmVwbGFjZSgiLyhodHRwOlwvXC8pKC4qPylcLyhbXHdcLlwvXCZcPVw/XC1cLFw6XDtcI1xfXH5cJVwrXSopLyIsICI8YSBocmVmPVwiXFwwXCI+XFwwPC9hPiIsICRkZXNjKTsKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgLy9Db252ZXJ0cyBkZXNjcmlwdGlvbiBpbnRvIElTTy04ODU5LTEgKHNvbHZlcyBzcGVjaWFsIHN5bWJvbHMgcHJvYmxlbSkKICAgICAgICAgICAgICAgJGRlc2MgPSBpY29udiggIlVURi04IiwgIklTTy04ODU5LTEvL1RSQU5TTElUIiwgJGRlc2MpOwogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAvL1Nob3J0ZW4gZG93biBkZXNjcmlwdGlvbiBiYXNlZCBvbiB3b3JkIGNvdW50CiAgICAgICAgICAgICAgICRzaG9ydGRlc2MgPSAnJzsgLy8gTXVzdCBiZSByZXNldCBlYWNoIHRpbWUKICAgICAgICAgICAgICAgJHRva2VuID0gc3RydG9rKCRkZXNjLCAiICIpOwogICAgICAgICAgICAgICAkbnVtd29yZHMgPSA1NTsgIC8vVGhlIG51bWJlciBvZiB3b3JkcwogICAgICAgICAgICAgICAkaSA9IDA7CiAgICAgICAgICAgICAgIHdoaWxlICgkaSA8ICRudW13b3JkcykgewogICAgICAgICAgICAgICAgICAgIGlmICgkdG9rZW4gIT0gZmFsc2UpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICRzaG9ydGRlc2MgLj0gIiR0b2tlbiAiOwogICAgICAgICAgICAgICAgICAgICAgICAgJHRva2VuID0gc3RydG9rKCIgIik7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICRpKys7CiAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgLy9BZGRzIGEgKC4uLikgYXQgdGhlIGVuZC4gUmVtb3ZlIHRoZSBuZXh0IGxpbmUgaWYgeW91IGRvbid0IHdhbnQgaXQKICAgICAgICAgICAgICAgJHNob3J0ZGVzYyAuPSAiICguLi4pIjsKCiAgICAgICAgICAgICAgIC8vU3RvcmUgaW50byBhcnJheQogICAgICAgICAgICAgICAkcnNzX2l0ZW0gPSBhcnJheSgKICAgICAgICAgICAgICAgICAgICAndGl0bGUnID0+ICR0aXRsZSwKICAgICAgICAgICAgICAgICAgICAnZGF0ZScgPT4gJHByb3BlcnRpbWUsCiAgICAgICAgICAgICAgICAgICAgJ2xpbmsnID0+ICRsaW5rLAogICAgICAgICAgICAgICAgICAgICdkZXNjcicgPT4gJHNob3J0ZGVzYwogICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICBhcnJheV9wdXNoKCRyc3NfYXJyYXksICRyc3NfaXRlbSk7CgogICAgICAgICAgICAgICAkbnVtcG9zdHMtLTsKICAgICAgICAgIH0KICAgICB9CiAgICAgLy9yZXR1cm4gYXJyYXkKICAgICByZXR1cm4gJHJzc19hcnJheTsKfQo/Pg==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1274"></relationship>
+    </object>
+    <object type="ASSET" id="z1277">
+        <attribute name="content" type="binary">Ly9Vc2UgdGhpcyB0byBvbmx5IGV4ZWN1dGUgY29kZSBpZiBzb21lIGRhdGUgaXMgYmVmb3JlIG9y
+IGFmdGVyIGEgc2V0IGRhdGUvdGltZQoKJGRhdGVCYXJyaWVyID0gc3RydG90aW1lKCcyNSBTZXB0ZW1iZXIgMjAxMSAwNjowMCcpOwoKLy9JZiBjdXJyZW50RGF0ZSBpcyBhZnRlciB0aGUgZGF0ZUJhcnJpZXIKaWYgKCRjdXJyZW50RGF0ZSA+ICRkYXRlQmFycmllcikgewoJLy9EbyBTdHVmZgp9CgovL0lmIGN1cnJlbnREYXRlIGlzIGJlZm9yZSB0aGUgZGF0ZUJhcnJpZXIKaWYgKCRjdXJyZW50RGF0ZSA8ICRkYXRlQmFycmllcikgewoJLy9EbyBTdHVmZgp9
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1278"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1278">
+        <attribute name="name" type="string">Date Conditional -\u3e00 Before/After</attribute>
+        <attribute name="modified" type="date">339855129.26923698186874389648</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1277"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z288 z1279 z149 z916 z913 z1057 z1225"></relationship>
+    </object>
+    <object type="TAG" id="z1279">
+        <attribute name="name" type="string">before</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1278"></relationship>
     </object>
 </database>
