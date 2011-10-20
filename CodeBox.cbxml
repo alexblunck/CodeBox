@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>520E6BAA-AB24-492B-94F0-B2F7E78F4CC0</UUID>
-        <nextObjectID>1335</nextObjectID>
+        <nextObjectID>1346</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -2310,7 +2310,7 @@ YWtlKDEsIDApOyAvL21vdmUgcmlnaHQKQ0dQb2ludCB2ZWxvY2l0eSA9IENHUG9pbnRNYWtlKDAsIDEp
     </object>
     <object type="TAG" id="z502">
         <attribute name="name" type="string">device</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z492"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z492 z1343"></relationship>
     </object>
     <object type="TAG" id="z503">
         <attribute name="name" type="string">screen</attribute>
@@ -2467,7 +2467,7 @@ IHN1cHBvc2VkIHRvIGJlIGluIHZhcmlhYmxlCmlkIG15T2JqZWN0ID0gW05TU3RyaW5nIHN0cmluZ1dp
     </object>
     <object type="TAG" id="z528">
         <attribute name="name" type="string">landscape</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z530"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1343 z530"></relationship>
     </object>
     <object type="ASSET" id="z529">
         <attribute name="sort" type="int32">-1</attribute>
@@ -2487,11 +2487,11 @@ ci5tIC8gCi8vc2hvdWxkQXV0b3JvdGF0ZVRvSW50ZXJmYWNlT3JpZW50YXRpb24gTWV0aG9kIHdpdGgg
     </object>
     <object type="TAG" id="z531">
         <attribute name="name" type="string">portrait</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z530"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1343 z530"></relationship>
     </object>
     <object type="TAG" id="z532">
         <attribute name="name" type="string">orientation</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1258 z530"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1258 z530 z1343"></relationship>
     </object>
     <object type="TAG" id="z533">
         <attribute name="name" type="string">runtime</attribute>
@@ -3059,7 +3059,7 @@ dGNoZXIgc2hhcmVkRGlzcGF0Y2hlcl0gYWRkS2V5Ym9hcmREZWxlZ2F0ZTpzZWxmIHByaW9yaXR5OjBd
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1158 z636 z597 z631 z1146 z705 z1152 z1119 z734 z639 z1217 z1271 z1262 z1166 z595 z1161 z717 z1294 z1174 z1157 z1121 z1258 z730 z1247 z1231 z726 z1171"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1161 z1262 z1157 z1121 z730 z1343 z1217 z636 z1171 z1152 z1166 z1119 z1271 z1247 z1158 z631 z1231 z705 z1338 z1146 z1174 z597 z595 z726 z734 z1258 z717 z1294 z639"></relationship>
     </object>
     <object type="SNIPPET" id="z631">
         <attribute name="name" type="string">UITextField / IBOutlet</attribute>
@@ -6172,7 +6172,7 @@ bGFzc2VzCgovLzIuIEhhdmUgYSBidXR0b24gaW4gb25lIHZpZXcgaG9va2VkIHVwIHdpdGggYW4gSUJB
     </object>
     <object type="TAG" id="z1162">
         <attribute name="name" type="string">detect</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z492"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z492 z1338"></relationship>
     </object>
     <object type="TAG" id="z1163">
         <attribute name="name" type="string">d</attribute>
@@ -7188,5 +7188,65 @@ IiB3aXRoIHlvdXIgR29vZ2xlIEFuYWx5dGljcyBTaXRlIElECjxzY3JpcHQgdHlwZT0idGV4dC9qYXZh
     <object type="TAG" id="z1335">
         <attribute name="name" type="string">new window</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z759"></relationship>
+    </object>
+    <object type="TAG" id="z1336">
+        <attribute name="name" type="string">version</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1338"></relationship>
+    </object>
+    <object type="TAG" id="z1337">
+        <attribute name="name" type="string">NSClassFromString</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1338"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1338">
+        <attribute name="name" type="string">Detect if iOS device is running iOS 5</attribute>
+        <attribute name="modified" type="date">340755511.95135402679443359375</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z630"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1340"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z1336 z1162 z1337 z1342 z1339 z1341"></relationship>
+    </object>
+    <object type="TAG" id="z1339">
+        <attribute name="name" type="string">uidevice</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1338"></relationship>
+    </object>
+    <object type="ASSET" id="z1340">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <attribute name="content" type="binary">aWYgKE5TQ2xhc3NGcm9tU3RyaW5nKEAiVUlTdG9yeWJvYXJkIikpIHsKCU5TTG9nKEAiUnVubmlu
+ZyBpT1M1Iik7Cn0=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1338"></relationship>
+    </object>
+    <object type="TAG" id="z1341">
+        <attribute name="name" type="string">firmware</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1338"></relationship>
+    </object>
+    <object type="TAG" id="z1342">
+        <attribute name="name" type="string">currentdevice</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1338"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1343">
+        <attribute name="name" type="string">Detect Device Orientation at any time</attribute>
+        <attribute name="modified" type="date">340760408.58363300561904907227</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z630"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1344"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z531 z528 z1346 z1345 z532 z502"></relationship>
+    </object>
+    <object type="ASSET" id="z1344">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <attribute name="content" type="binary">Ly9NZXRob2QgdGhhdCByZXR1cm4gWUVTIGlmIExhbmRzY2FwZSBhbmQgTk8gaWYgUG9ydHJhaXQK
+LShCT09MKSBpc09yaWVudGF0aW9uTGFuZHNjYXBlOihVSUludGVyZmFjZU9yaWVudGF0aW9uKSBvcmllbnRhdGlvbiB7CiAgICBpZiAob3JpZW50YXRpb24gPT0gVUlJbnRlcmZhY2VPcmllbnRhdGlvbkxhbmRzY2FwZUxlZnQgfHwgb3JpZW50YXRpb24gPT0gVUlJbnRlcmZhY2VPcmllbnRhdGlvbkxhbmRzY2FwZVJpZ2h0KSB7CiAgICAgICAgcmV0dXJuIFlFUzsKICAgIH0gZWxzZQogICAgICAgIHJldHVybiBOTzsKfQoKLy9Vc2FnZQppZiAoW3NlbGYgaXNPcmllbnRhdGlvbkxhbmRzY2FwZTpzZWxmLmludGVyZmFjZU9yaWVudGF0aW9uXSkgewoJLy9TdHVmZiB0byBkbyBpZiBMYW5kc2NhcGUgT3JpZW50YXRpb24KfQoKaWYgKCFbc2VsZiBpc09yaWVudGF0aW9uTGFuZHNjYXBlOnNlbGYuaW50ZXJmYWNlT3JpZW50YXRpb25dKSB7CgkvL1N0dWZmIHRvIGRvIGlmIFBvcnRyYWl0IE9yaWVudGF0aW9uCn0=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1343"></relationship>
+    </object>
+    <object type="TAG" id="z1345">
+        <attribute name="name" type="string">uiinterfaceorientation</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1343"></relationship>
+    </object>
+    <object type="TAG" id="z1346">
+        <attribute name="name" type="string">uivdevice</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1343"></relationship>
     </object>
 </database>
