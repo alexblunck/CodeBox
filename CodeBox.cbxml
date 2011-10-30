@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>520E6BAA-AB24-492B-94F0-B2F7E78F4CC0</UUID>
-        <nextObjectID>1346</nextObjectID>
+        <nextObjectID>1423</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -68,7 +68,7 @@
     </object>
     <object type="TAG" id="z107">
         <attribute name="name" type="string">basic</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z138 z599 z1302 z192"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z192 z1363 z1302 z138 z599"></relationship>
     </object>
     <object type="TAG" id="z108">
         <attribute name="name" type="string">CCFollow</attribute>
@@ -132,7 +132,7 @@ bm9kZQoKW3NlbGYgcnVuQWN0aW9uOltDQ0ZvbGxvdyBhY3Rpb25XaXRoVGFyZ2V0Om5vZGVOYW1lIHdv
     </object>
     <object type="TAG" id="z118">
         <attribute name="name" type="string">write</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z263 z545 z895"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z263 z545 z895 z1385"></relationship>
     </object>
     <object type="TAG" id="z119">
         <attribute name="name" type="string">void</attribute>
@@ -140,7 +140,7 @@ bm9kZQoKW3NlbGYgcnVuQWN0aW9uOltDQ0ZvbGxvdyBhY3Rpb25XaXRoVGFyZ2V0Om5vZGVOYW1lIHdv
     </object>
     <object type="TAG" id="z120">
         <attribute name="name" type="string">input</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z969 z925 z800 z325 z797 z824"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1376 z325 z925 z824 z797 z969 z800"></relationship>
     </object>
     <object type="SNIPPET" id="z121">
         <attribute name="name" type="string">File Management</attribute>
@@ -180,12 +180,12 @@ CgkJTlNMb2coQCJpbnRlZ2VyTmFtZSBpcyAzNDUiKTsKCQlicmVhazsKCWNhc2UgMzQxOgoJCU5TTG9n
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z146"></relationship>
     </object>
     <object type="SNIPPET" id="z127">
-        <attribute name="name" type="string">Switch</attribute>
-        <attribute name="modified" type="date">326105282.73386102914810180664</attribute>
+        <attribute name="name" type="string">Switch / Case's</attribute>
+        <attribute name="modified" type="date">341522191.38140600919723510742</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST" idrefs="z143"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z524"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z336 z149 z174 z177 z288"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z288 z373 z857 z174 z149 z177 z336 z858 z1395"></relationship>
     </object>
     <object type="TAG" id="z128">
         <attribute name="name" type="string">contition</attribute>
@@ -274,7 +274,7 @@ Zm9sZGVyIGhlcmUiCnN1ZG8gLi9pbnN0YWxsLXRlbXBsYXRlcy5zaAoKY29weSB0ZW1wbGF0ZXMgZnJv
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1239 z199 z1140 z112 z522 z588 z545 z121 z325 z205 z267 z344 z142 z509 z579 z263 z280 z583 z330 z113 z260 z605 z256 z291 z514 z721 z1290 z518 z127"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z588 z1423 z256 z280 z199 z291 z121 z522 z142 z1419 z1348 z721 z545 z509 z113 z579 z583 z1396 z1405 z205 z605 z112 z260 z127 z1290 z325 z344 z263 z267 z518 z514 z330 z1239 z1140"></relationship>
     </object>
     <object type="ASSET" id="z144">
         <attribute name="sort" type="int32">-1</attribute>
@@ -310,7 +310,7 @@ KCkgewoJLy9kbyBzdHVmZgp9CgovL3RvICJ0cmlnZ2VyIiBmdW5jdGlvbjoKbXlGdW5jdGlvbiAoKTsK
     </object>
     <object type="TAG" id="z149">
         <attribute name="name" type="string">if</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127 z112 z848 z1102 z936 z199 z1278"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z112 z848 z936 z1102 z1278 z1423 z199 z127"></relationship>
     </object>
     <object type="SNIPPET" id="z150">
         <attribute name="name" type="string">Dragging CCSprite</attribute>
@@ -390,7 +390,7 @@ V2l0aFdhdmVzOjEwIGFtcGxpdHVkZToxMCBncmlkOmNjZygxMCwgMTApIGR1cmF0aW9uOjNdOwoKaWQg
     </object>
     <object type="TAG" id="z163">
         <attribute name="name" type="string">property</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z631 z121 z659 z205 z358"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z121 z631 z659 z205 z358 z1348"></relationship>
     </object>
     <object type="TAG" id="z164">
         <attribute name="name" type="string">superclass</attribute>
@@ -670,7 +670,7 @@ dGlvbgoKLy9pbiBoZWFkZXI6CgpDQ1Nwcml0ZSAqc3ByaXRlTmFtZTsKCkBwcm9wZXJ0eSAobm9uYXRv
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z275 z450 z476 z457 z536 z213 z432 z138 z253 z447 z489 z463 z614 z209 z123 z146 z271 z322 z1127 z116 z346 z410 z150 z218 z403 z404 z488 z415 z1133 z352 z385 z530 z264 z389 z339 z392 z187 z442 z189 z201 z475 z192 z436 z221 z397 z481 z363 z454 z258 z492 z452 z428 z358 z469 z485 z320 z455 z483 z491 z418 z195 z523 z487 z426 z132 z331 z285"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z352 z320 z221 z463 z442 z523 z489 z389 z488 z192 z432 z138 z285 z189 z483 z1133 z403 z476 z132 z475 z346 z455 z450 z454 z1127 z209 z487 z187 z275 z358 z213 z218 z457 z258 z322 z201 z392 z426 z491 z418 z481 z253 z404 z436 z428 z410 z339 z146 z485 z195 z264 z116 z536 z492 z447 z614 z331 z123 z271 z397 z150 z452 z363 z469 z415 z385 z530"></relationship>
     </object>
     <object type="TAG" id="z215">
         <attribute name="name" type="string">label</attribute>
@@ -686,7 +686,7 @@ QCJGTlQgTGFiZWwiIGZudEZpbGU6QCJmb250LmZudCJdOwpsYWJlbEZOVC5wb3NpdGlvbiA9IGNjcCgy
     </object>
     <object type="TAG" id="z217">
         <attribute name="name" type="string">nonatomic</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z358"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z358 z1348"></relationship>
     </object>
     <object type="SNIPPET" id="z218">
         <attribute name="name" type="string">CCScene</attribute>
@@ -1033,7 +1033,7 @@ Q29weXJpZ2h0IChjKSAyMDEwIFN0ZWZmZW4gSXR0ZXJoZWltCiAqIAogKiBQZXJtaXNzaW9uIGlzIGhl
     </object>
     <object type="TAG" id="z282">
         <attribute name="name" type="string">retain</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z358"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z358 z1348"></relationship>
     </object>
     <object type="TAG" id="z283">
         <attribute name="name" type="string">enum</attribute>
@@ -1157,7 +1157,7 @@ OiAlaQp1bnNpZ25lZCBpbnQgLy8gbm8gbmVnYXRpdmUgbnVtYmVycwpsb25nIGludCAvLyBtb3JlIHRo
     </object>
     <object type="TAG" id="z307">
         <attribute name="name" type="string">class</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z668 z280 z1290 z1040 z670"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z670 z1290 z668 z280 z518 z1040 z1348"></relationship>
     </object>
     <object type="TAG" id="z308">
         <attribute name="name" type="string">typedef</attribute>
@@ -1527,7 +1527,7 @@ IGRvbid0IG5lZWQgdG8gcmVsZWFzZSBpdAoKLy9NZW1vcnkgTWFuYWdlbWVudCBpcyBvbmx5IHRvIGJl
     </object>
     <object type="TAG" id="z373">
         <attribute name="name" type="string">integer</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z256"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127 z256"></relationship>
     </object>
     <object type="ASSET" id="z374">
         <attribute name="sort" type="int32">0</attribute>
@@ -1655,7 +1655,7 @@ IGNyZWF0ZToKLy9kb250IGZvcmdldCB0byBkZWNsYXJlICsoQ0dQb2ludCkuLi4KKyhDR1BvaW50KSBs
     </object>
     <object type="TAG" id="z396">
         <attribute name="name" type="string">loading</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z392 z428"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1405 z392 z428"></relationship>
     </object>
     <object type="SNIPPET" id="z397">
         <attribute name="name" type="string">CCScrollLayer</attribute>
@@ -1711,7 +1711,7 @@ dmVyc2lvbiEhCgovL2luIC5oOgotKENHUmVjdCkgZ2V0Qm91bmRzU3ByaXRlMTsKLShDR1JlY3QpIGdl
     </object>
     <object type="TAG" id="z405">
         <attribute name="name" type="string">scroll</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z397 z1119"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1119 z1374 z397"></relationship>
     </object>
     <object type="TAG" id="z406">
         <attribute name="name" type="string">chipmunk</attribute>
@@ -2158,7 +2158,7 @@ aDp3IGhlaWdodDpoIHJvdGF0aW9uOjBdOwpjcENDU3ByaXRlICpibG9ja1Nwcml0ZSA9IFtjcENDU3By
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1299 z504 z1208 z538"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z538 z1299 z1208 z504"></relationship>
     </object>
     <object type="TAG" id="z479">
         <attribute name="name" type="string">constraints</attribute>
@@ -2310,11 +2310,11 @@ YWtlKDEsIDApOyAvL21vdmUgcmlnaHQKQ0dQb2ludCB2ZWxvY2l0eSA9IENHUG9pbnRNYWtlKDAsIDEp
     </object>
     <object type="TAG" id="z502">
         <attribute name="name" type="string">device</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z492 z1343"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1343 z492 z1366"></relationship>
     </object>
     <object type="TAG" id="z503">
         <attribute name="name" type="string">screen</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z491"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1366 z491"></relationship>
     </object>
     <object type="SNIPPET" id="z504">
         <attribute name="name" type="string">Disable Icon Gloss</attribute>
@@ -2388,8 +2388,8 @@ LzIuIE5hbWluZyBjb252ZW50aW9uIENsYXNzVG9FeHBhbmQrRGVzY3JpcHRpb24gKE5TU3RyaW5nK0Nv
     <object type="ASSET" id="z515">
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.m</attribute>
-        <attribute name="content" type="binary">Ly9BIFByb3RvY29sIGlzIHByZWRlZmluZWQgbnVtYmVyIG9mIG1ldGhvZHMgcHJvdmlkaW5nIGEg
-c3BlY2lmaWMgYWJiaWxpdHkKCi8vRGVmaW5lIGEgcHJvdG9jb2wgaW4gb25lIGNsYXNzIGhlYWRlciBmaWxlCkBwcm90b2NvbCBTZWNvbmRWaWV3Q29udHJvbGxlckRlbGVnYXRlCi0odm9pZCkgc3VtOihpbnQpdmFsdWUxIHNlY29uZFBhcmFtOihpbnQpdmFsdWUyOwpAb3B0aW9uYWwKLSh2b2lkKSBtdWxpdHBseTooaW50KW11bHRWYWx1ZTEgc2Vjb25kUGFyYW06KGludCltdWx0VmFsdWUyOwpAZW5kCgpAaW50ZXJmYWNlIE15Q2xhc3MxIDogVUlWaWV3Q29udHJvbGxlciB7CiAgICAKICAgIElCT3V0bGV0IFVJVGV4dEZpZWxkICp2YWx1ZTE7CiAgICBJQk91dGxldCBVSVRleHRGaWVsZCAqdmFsdWUyOwogICAgSUJPdXRsZXQgVUlMYWJlbCAqcmVzdWx0OwogICAgaWQgPFNlY29uZFZpZXdDb250cm9sbGVyRGVsZWdhdGU+IGRlbGVnYXRlOwp9CgpAcHJvcGVydHkgKG5vbmF0b21pYywgcmV0YWluKSBJQk91dGxldCBVSVRleHRGaWVsZCAqdmFsdWUxOwpAcHJvcGVydHkgKG5vbmF0b21pYywgcmV0YWluKSBJQk91dGxldCBVSVRleHRGaWVsZCAqdmFsdWUyOwpAcHJvcGVydHkgKG5vbmF0b21pYywgcmV0YWluKSBpZCA8U2Vjb25kVmlld0NvbnRyb2xsZXJEZWxlZ2F0ZT4gZGVsZWdhdGU7CgotKElCQWN0aW9uKSBhZGQ6KGlkKSBzZW5kZXI7Ci0oSUJBY3Rpb24pIG11bHRpcGx5OihpZCkgc2VuZGVyOwoKQGVuZAoKLy9pbiB0aGUgLm0gZmlsZQpAc3ludGhlc2l6ZSB2YWx1ZTEsIHZhbHVlMiwgZGVsZWdhdGU7CgotKElCQWN0aW9uKSBhZGQ6KGlkKXNlbmRlciB7CiAgICBbZGVsZWdhdGUgc3VtOlt2YWx1ZTEudGV4dCBpbnRWYWx1ZV0gc2Vjb25kUGFyYW06W3ZhbHVlMi50ZXh0IGludFZhbHVlXV07Cn0KLShJQkFjdGlvbikgbXVsdGlwbHk6KGlkKXNlbmRlciB7CiAgICBbZGVsZWdhdGUgbXVsaXRwbHk6W3ZhbHVlMS50ZXh0IGludFZhbHVlXSBzZWNvbmRQYXJhbTpbdmFsdWUyLnRleHQgaW50VmFsdWVdXTsKfQoKCgovL0lub3JkZXIgdG8gY29uZm9ybSB0byB0aGlzIHlvdSB3aWxsIG5lZWQgZG8gYWRkIGZvbGxvd2luZyB0byB5b3VyIGNsYXNzCi8vaGVhZGVyZmlsZSByaWdodCBhZnRlciB0aGUgc3VwZXJjbGFzcyBidXQgYmVmb3JlIHRoZSAifSIgOgpAaW50ZXJmYWNlIE15Q2xhc3MyIDogTlNPYmplY3QgPFByb3RvY29sPiB7IC8vb2Z0ZW4gdGhlc2UgYXJlIGNhbGxlZCAiLi5EZWxlZ2F0ZSIKfQotKHZvaWQpIHByb3RvY29sTWV0aG9kMTsKLSh2b2lkKSBwcm90b2NvbE1ldGhvZDI7CkBlbmQKCi8vRGV0YWlsZWQgRG9jdW1lbnRhdGlvbiBjb21pbmcgbGF0ZXIgaW4gY29uanVuY3Rpb24gd2l0aCBpUGhvbmUgc3BlY2lmaWMgcHJvZ3JhbW1pbmc=
+        <attribute name="content" type="binary">Ly9BIGNvbW1vbiB1c2FnZSBvZiBQcm90b2NvbHMgaXMgdG8gZGVmaW5lIG1ldGhvZHMgdGhhdCBh
+cmUgdG8gYmUgaW1wbGVtZW50ZWQgCi8vYnkgb3RoZXIgY2xhc3NlcwoKLy9EZWZpbmUgYSBwcm90b2NvbCAoSW4gYSBjbGFzcydzIGhlYWRlciBhYm92ZSB0aGUgQGludGVyZmFjZSkKQHByb3RvY29sIENsYXNzRGVsZWdhdGUgPE5TT2JqZWN0PgoKQHJlcXVpcmVkIC8vVGhlc2UgbWV0aG9kcyBuZWVkIHRvIGJlIGltcGxlbWVudGVkCi0oQk9PTCkgQ2xhc3NTaG93c0FkczsKCkBvcHRpb25hbCAvL1RoZXNlIG1ldGhvZHMgYXJlIG9wdGlvbmFsIHRvIGltcGxlbWVudAotKHZvaWQpIG91dHB1dEVycm9yOihOU0Vycm9yKillcnJvcjsKCkBlbmQKCgoKLy9EZWNsYXJlIHRoaXMgZGVsZWdhdGUvcHJvdG9jb2wgYXMgYSBwcm9wZXJ0eSBpbiB0aGUgc2FtZSBjbGFzcyAoZG9uJ3QgZm9yZ2V0IHRvIHN5bnRoZXNpemUpCkBpbnRlcmZhY2UgQ2xhc3MgOiBOU09iamVjdAovLy4uLgpAcHJvcGVydHkgKHN0cm9uZywgbm9uYXRvbWljKSBpZCA8RnJ1aXREZWxlZ2F0ZT4gZGVsZWdhdGU7CgpAZW5kCgoKLy9UbyBhY2Nlc3MgdGhlIG1ldGhvZHMgZGVmaW5lZCBpbiB0aGUgcHJvdG9jb2wgZG8gZm9sbG93aW5nCmlmIChbW3NlbGYgZGVsZWdhdGVdIENsYXNzU2hvd3NBZHNdKSB7CgkvL3Nob3cgQWRzCn0gZWxzZSB7CgkvL2RvbidUIHNob3cgYWRzCn0KCgovLwovL0FET1BUSU5HIFBST1RPQ09MIElOIEEgQ0xBU1MKLy8KLy9UbyBtYWtlIHNvbWUgb3RoZXIgY2xhc3MgY29uZmlybSB0byB0aGlzIHByb3RvY29sIC8gbWFrZSBpdCBhIGRlbGVnYXRlCi8vYWRkIGZvbGxvd2luZyB0byB0aGUgY2xhc3MncyBoZWFkZXIgCkBpbnRlcmZhY2UgTXlWaWV3Q29udHJvbGxlciA6IFVJVmlld0NvbnRyb2xsZXIgPENsYXNzRGVsZWdhdGU+Ci8vLi4uCkBlbmQKCi8vaW4gdGhpcyBleGFtcGxlIHRoZSBDbGFzc1Nob3dBZHMgbWV0aG9kIGlzIHJlcXVpcmVkICwgaW1wbGVtZW50IGl0Ci8vaXQgd2lsbCAKLSh2b2lkKSB2aWV3RGlkTG9hZCB7CglDbGFzcyAqdGhlQ2xhc3MgPSBbQ2xhc3MgYWxsb2NdIGluaXRdOwoJdGhlQ2xhc3MuZGVsZWdhdGUgPSBzZWxmOyAvL3NldCBUaGUgQ2xhc3MncyBkZWxlZ2F0ZSB0byB0aGUgY3VycmVudCBjbGFzcwp9CgotKEJPT0wpIENsYXNzU2hvd3NBZHMgewoJcmV0dXJuIFlFUzsKfQoKCg==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z518"></relationship>
     </object>
@@ -2403,11 +2403,11 @@ c3BlY2lmaWMgYWJiaWxpdHkKCi8vRGVmaW5lIGEgcHJvdG9jb2wgaW4gb25lIGNsYXNzIGhlYWRlciBm
     </object>
     <object type="SNIPPET" id="z518">
         <attribute name="name" type="string">Protocol | Delegate</attribute>
-        <attribute name="modified" type="date">326555164.13780701160430908203</attribute>
+        <attribute name="modified" type="date">341237879.32773298025131225586</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST" idrefs="z143"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z515"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z516 z517"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z517 z516 z307"></relationship>
     </object>
     <object type="TAG" id="z519">
         <attribute name="name" type="string">id</attribute>
@@ -2444,8 +2444,8 @@ ICAgIAogICAgZm9yIChpbnQgaSA9IDA7IGk8NTA7IGkrKykgewogICAgICAgIENDU3ByaXRlICpteVNw
     <object type="ASSET" id="z524">
         <attribute name="sort" type="int32">0</attribute>
         <attribute name="path" type="string">Better.m</attribute>
-        <attribute name="content" type="binary">aW50IGludGVnZXJOYW1lID0gMzQ1OwoKc3dpdGNoIChpbnRlZ2VyTmFtZSkgewpjYXNlIDM0MDoK
-TlNMb2coQCJpbnRlZ2VyTmFtZSBpcyAzNDAiKTsKYnJlYWs7CmNhc2UgMzQxOgpOU0xvZyhAImludGVnZXJOYW1lIGlzIDM0MSIpOwpicmVhazsKCmNhc2UgMzQyOgpjYXNlIDM0MzoKICBOU0xvZyhAImludGVnZXJOYW1lIGlzIDM0MiBPUiAzNDMiKQpicmVhazsKCmNhc2UgMzQ0OgogIE5TTG9nKEAiaW50ZWdlck5hbWUgaXMgMzQ0IikKYnJlYWs7CmNhc2UgMzQ1OgogIE5TTG9nKEAiaW50ZWdlck5hbWUgaXMgMzQ1Iik7IC8vIHdlIHdpbGwgY29tZSBoZXJlCmJyZWFrOwovLy4uLgpkZWZhdWx0OgovL2dldHMgY2FsbGVkIGlmIG5vbmUgb2YgdGhlICJjYXNlcyIgIm1hdGNoIgogIE5TTG9nKEAiaW50ZWdlck5hbWUgaXMgbm90IGEgMzQwLDM0MSwzNDIsMzQzLDM0NCwzNDUiKTsKYnJlYWs7Cn0=
+        <attribute name="content" type="binary">Ly9Vc2UgYSBzd2l0Y2ggdG8gYXZvaWQgdXNpbmcgaWYgLyBlbHNlIGNvbmRpdGlvbmFscyB3aXRo
+IEludGVnZXJzCgppbnQgbXlJbnQgPSAxOwoKc3dpdGNoIChteUludCkgewpjYXNlIDA6CgkvL215SW50IGlzIDAKCWJyZWFrOwpjYXNlIDE6CgkvL215SW50IGlzIDEgPC0gdGhpcyBoYXBwZW5zCglicmVhazsKZGVmYXVsdDoKCS8vSWYgbm9uZSBvZiB0aGUgY2FzZXMgbWF0Y2gKCWJyZWFrOwp9CgoKLy9FeGFtcGxlIHdpdGggb3IgY2FzZXMKc3dpdGNoIChteUludCkgewpjYXNlIDA6CmNhc2UgMToKCS8vbXlJTlQgaXMgMCBvciAxCglicmVhazsKfQoKCi8vVXNlIGJyZWFrIHRvIGJyZWFrIG91dCBvZiBzd2l0Y2gKYnJlYWs7Cg==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z127"></relationship>
     </object>
@@ -2640,7 +2640,7 @@ M0QgUG9pbnQgaW4gc3BhY2UgKHgseSx6KSAKCi0gM0QgTGluZSBpbiBzcGFjZSAoMiAzRCBQb2ludHMp
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z553 z554 z563 z574 z599 z572"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z572 z554 z574 z553 z599 z563"></relationship>
     </object>
     <object type="TAG" id="z558">
         <attribute name="name" type="string">buffer object</attribute>
@@ -2750,7 +2750,7 @@ aXRzKQl1bnNpZ25lZCBjaGFyCTAgdG8gMQpHTGJ5dGUgKDggYml0cykJY2hhcgktMTI4IHRvIDEyNwpH
     </object>
     <object type="TAG" id="z577">
         <attribute name="name" type="string">singleton</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z579 z463"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z463 z1419 z579"></relationship>
     </object>
     <object type="ASSET" id="z578">
         <attribute name="sort" type="int32">-1</attribute>
@@ -2771,7 +2771,7 @@ QGludGVyZmFjZSBNeVNpbmdsZXRvbiA6IE5TT2JqZWN0IHsKIAp9CisoTXlTaW5nbGV0b24qKXNoYXJl
     </object>
     <object type="TAG" id="z580">
         <attribute name="name" type="string">shared</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1208 z579"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z579 z1419 z1208"></relationship>
     </object>
     <object type="TAG" id="z581">
         <attribute name="name" type="string">web</attribute>
@@ -2827,7 +2827,7 @@ c291cmNlTWFuYWdlciBzaGFyZWRSZXNvdXJjZU1hbmFnZXJdIGdldFVJSW1hZ2U6QCJtZW51LnBuZyJd
     </object>
     <object type="TAG" id="z590">
         <attribute name="name" type="string">uiapplication</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z588 z705 z1231"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z588 z1231 z1355 z705"></relationship>
     </object>
     <object type="ASSET" id="z591">
         <attribute name="sort" type="int32">-1</attribute>
@@ -2911,7 +2911,7 @@ TFZpZXcuaCIKIAovLyBJbnNpZGUgQGludGVyZmFjZQpPcGVuR0xWaWV3KiBfZ2xWaWV3OwogCi8vIEFm
     </object>
     <object type="TAG" id="z603">
         <attribute name="name" type="string">opengl</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z599"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1363 z599"></relationship>
     </object>
     <object type="ASSET" id="z604">
         <attribute name="sort" type="int32">0</attribute>
@@ -2975,7 +2975,7 @@ MiA9IFtDQ1Nwcml0ZSBzcHJpdGVXaXRoVGV4dHVyZTp0eF07
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z930 z1274 z862 z1194 z904 z895 z826 z909 z848 z1281 z883 z840 z1224 z925 z873 z869 z975 z1182 z846 z834 z617 z842 z1018 z920 z877 z888 z829 z892 z1203 z860"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z617 z1379 z1385 z829 z925 z895 z1224 z909 z1182 z842 z877 z975 z1194 z883 z1203 z862 z848 z846 z920 z904 z869 z834 z888 z892 z1281 z873 z930 z840 z860 z1274 z1018 z826"></relationship>
     </object>
     <object type="SNIPPET" id="z617">
         <attribute name="name" type="string">PHP Mailer</attribute>
@@ -3003,7 +3003,7 @@ cCgkbWVzc2FnZSwgNzApOw0KDQovLyBTZW5kDQptYWlsKCdjb250YWN0QGFibGZ4LmNvbScsICdOZXdz
     </object>
     <object type="TAG" id="z621">
         <attribute name="name" type="string">php</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1194 z969 z930 z617 z1087 z1274 z1203"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z930 z969 z617 z1087 z1274 z1194 z1203 z1396"></relationship>
     </object>
     <object type="ASSET" id="z622">
         <attribute name="sort" type="int32">1</attribute>
@@ -3035,11 +3035,11 @@ dGNoZXIgc2hhcmVkRGlzcGF0Y2hlcl0gYWRkS2V5Ym9hcmREZWxlZ2F0ZTpzZWxmIHByaW9yaXR5OjBd
     </object>
     <object type="TAG" id="z626">
         <attribute name="name" type="string">keyboard</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z629 z631"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z631 z1376 z629"></relationship>
     </object>
     <object type="TAG" id="z627">
         <attribute name="name" type="string">mac</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z629"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z629 z1355"></relationship>
     </object>
     <object type="TAG" id="z628">
         <attribute name="name" type="string">event</attribute>
@@ -3059,7 +3059,7 @@ dGNoZXIgc2hhcmVkRGlzcGF0Y2hlcl0gYWRkS2V5Ym9hcmREZWxlZ2F0ZTpzZWxmIHByaW9yaXR5OjBd
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1161 z1262 z1157 z1121 z730 z1343 z1217 z636 z1171 z1152 z1166 z1119 z1271 z1247 z1158 z631 z1231 z705 z1338 z1146 z1174 z597 z595 z726 z734 z1258 z717 z1294 z639"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z705 z1166 z639 z631 z597 z1247 z1161 z734 z1355 z1343 z1411 z1294 z1174 z595 z730 z1152 z1171 z1119 z1217 z726 z1366 z1121 z1338 z1393 z1231 z1157 z717 z1271 z1146 z1158 z1258 z1262 z1376 z1374 z636"></relationship>
     </object>
     <object type="SNIPPET" id="z631">
         <attribute name="name" type="string">UITextField / IBOutlet</attribute>
@@ -3087,7 +3087,7 @@ aGljaCBpcyBkZWNsYXJlZCBhcyBhIHB1YmxpYyBtZXRob2QKLy9XaXRoIHRoZSByZXR1cm4gdHlwZSAi
     </object>
     <object type="TAG" id="z635">
         <attribute name="name" type="string">uitextfield</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z631"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z631 z1393 z1376"></relationship>
     </object>
     <object type="SNIPPET" id="z636">
         <attribute name="name" type="string">Button / IBAction</attribute>
@@ -3167,7 +3167,7 @@ cz0ibXlDbGFzcyI+IAo8L2Rpdj4gb3IgPGltZyBzcmM9InBpY3R1cmUucG5nIiBhbHQ9IiIgLz4=
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1010 z1095 z936 z759 z997 z996 z1009 z646 z658 z1027"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z646 z1027 z759 z996 z997 z936 z1095 z1010 z1009 z658"></relationship>
     </object>
     <object type="TAG" id="z649">
         <attribute name="name" type="string">element</attribute>
@@ -3211,7 +3211,7 @@ Ly9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwxLXRyYW5zaXRpb25hbC5k
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z765 z704 z1066 z783 z746 z663 z750 z698 z659 z668 z824 z820 z679 z747 z670 z771 z786 z778 z762 z1099 z688 z1005 z683 z674 z739 z700 z652 z692 z671"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z679 z750 z704 z747 z783 z762 z771 z786 z1005 z700 z820 z1066 z778 z692 z1099 z765 z663 z671 z659 z698 z824 z739 z683 z688 z668 z670 z674 z746 z652"></relationship>
     </object>
     <object type="ASSET" id="z656">
         <attribute name="sort" type="int32">-1</attribute>
@@ -3657,7 +3657,7 @@ ZGUgdGVtcGxhdGUKCi8vU2V0IFRpdGxlIG9mIFVJTmF2aWdhdGlvbkNvbnRyb2xsZXIKLy9uZWVkZWQg
     </object>
     <object type="TAG" id="z731">
         <attribute name="name" type="string">uitableviewcontroller</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1196 z730 z734"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z730 z1196 z734 z1374"></relationship>
     </object>
     <object type="TAG" id="z732">
         <attribute name="name" type="string">table view</attribute>
@@ -3685,7 +3685,7 @@ b3dpbmcgaW5zdGFuY2UgdmFyaWFibGVzICsgcHJvcGVydGllcwpOU1N0cmluZyAqbmFtZTsKTlNTdHJp
     </object>
     <object type="TAG" id="z736">
         <attribute name="name" type="string">cell</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1196 z730"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1196 z730 z1374"></relationship>
     </object>
     <object type="ASSET" id="z737">
         <attribute name="sort" type="int32">-1</attribute>
@@ -3871,7 +3871,7 @@ LWltYWdlOi13ZWJraXQtZ3JhZGllbnQobGluZWFyLCBsZWZ0IHRvcCwgbGVmdCBib3R0b20sIGZyb20o
     </object>
     <object type="TAG" id="z769">
         <attribute name="name" type="string">shadow</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1099 z700 z765 z965"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z765 z1393 z1099 z965 z700"></relationship>
     </object>
     <object type="TAG" id="z770">
         <attribute name="name" type="string">padding</attribute>
@@ -3989,7 +3989,7 @@ IGFuZCB3aXRob3V0IGEgcHJlZml4ICovCi13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZSgxLjUpOwotbW96
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z797 z799 z800 z819 z1102 z811 z1049 z990 z788 z1112 z984 z798 z1333 z969 z993 z804 z1105 z816 z1109"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1333 z1049 z1109 z816 z797 z990 z811 z819 z1102 z1105 z799 z984 z800 z1112 z798 z993 z804 z788 z969"></relationship>
     </object>
     <object type="ASSET" id="z790">
         <attribute name="sort" type="int32">-1</attribute>
@@ -4369,7 +4369,7 @@ NTAiOyAKCX0gCgkKZWxzZWlmICgkbXlWYXIgPiA1MCkgeyAKCWVjaG8gInZhciBpcyBsYXJnZXIgdGhh
     </object>
     <object type="TAG" id="z849">
         <attribute name="name" type="string">elseif</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z848"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1423 z848"></relationship>
     </object>
     <object type="TAG" id="z850">
         <attribute name="name" type="string">for</attribute>
@@ -4405,11 +4405,11 @@ CQkKCQlmb3IgKCRpPTA7ICRpPD0yMDsgJGkrKykgewoJCQkkbXlBcnJheVskaV0gPSAiU3RyaW5nIE5y
     </object>
     <object type="TAG" id="z857">
         <attribute name="name" type="string">break</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z997 z848"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z848 z127 z997"></relationship>
     </object>
     <object type="TAG" id="z858">
         <attribute name="name" type="string">continue</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z848"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127 z848"></relationship>
     </object>
     <object type="ASSET" id="z859">
         <attribute name="sort" type="int32">-1</attribute>
@@ -4677,7 +4677,7 @@ c3NhZ2UgPSAibmFtZTogeyRwYXNzZWROYW1lfSwgYWdlOiB7JHBhc3NlZEFnZX0iOwptYWlsKCJibHVu
     </object>
     <object type="TAG" id="z906">
         <attribute name="name" type="string">mail</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z904"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z904 z1411"></relationship>
     </object>
     <object type="TAG" id="z907">
         <attribute name="name" type="string">delete</attribute>
@@ -4685,7 +4685,7 @@ c3NhZ2UgPSAibmFtZTogeyRwYXNzZWROYW1lfSwgYWdlOiB7JHBhc3NlZEFnZX0iOwptYWlsKCJibHVu
     </object>
     <object type="TAG" id="z908">
         <attribute name="name" type="string">post</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z873"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z873 z1396"></relationship>
     </object>
     <object type="SNIPPET" id="z909">
         <attribute name="name" type="string">Sample PHP \u2600 MySQL Web App</attribute>
@@ -4850,7 +4850,7 @@ PSJzdHlsZXNoZWV0cy9pZV9tYWluLmNzcyIgbWVkaWE9ImFsbCIvPgo8IVtlbmRpZl0tLT4KCQoJCQo8
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z942 z948 z957 z959 z937 z965"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z959 z942 z937 z965 z957 z948"></relationship>
     </object>
     <object type="ASSET" id="z939">
         <attribute name="content" type="binary">Ly8uaAojaW1wb3J0ICJpc2dsM2QuaCIKCkBpbnRlcmZhY2UgTWFpblZpZXcgOiBJc2dsM2RCYXNp
@@ -5050,11 +5050,11 @@ aWYgdGhlIGpzIGZ1bmN0aW9uIHJldHVybnMgImZhbHNlIiB0aGUKLy9mb3JtIGlzIG5vdCBzZW50IHRv
     </object>
     <object type="SNIPPET" id="z975">
         <attribute name="name" type="string">Encryption</attribute>
-        <attribute name="modified" type="date">333827713.67273902893066406250</attribute>
+        <attribute name="modified" type="date">341448217.33270198106765747070</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST" idrefs="z616"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z976"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z977 z978 z979"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z1390 z979 z978 z977 z1282"></relationship>
     </object>
     <object type="ASSET" id="z976">
         <attribute name="content" type="binary">Ly9TaW1wbGUgc2hhMSBlbmNyeXB0aW9uCiRwYXNzd29yZCA9ICJteXBhc3N3b3JkIjsKc2hhMSgk
@@ -5066,7 +5066,7 @@ cGFzc3dvcmQpOw==
     </object>
     <object type="TAG" id="z977">
         <attribute name="name" type="string">login</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z975"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z975 z1376"></relationship>
     </object>
     <object type="TAG" id="z978">
         <attribute name="name" type="string">safe</attribute>
@@ -5213,7 +5213,7 @@ cj4gPC90cj4KCgovL0luc2lkZSB0aGUgcm93IHlvdSBjYW4gYWRkIGNvbGx1bXMgd2l0aCB0aGUgIjx0
     </object>
     <object type="TAG" id="z1004">
         <attribute name="name" type="string">row</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1005 z996"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z996 z1374 z1005"></relationship>
     </object>
     <object type="SNIPPET" id="z1005">
         <attribute name="name" type="string">Styling Tables</attribute>
@@ -5369,7 +5369,7 @@ ZW50LVR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD1VVEYtOCIgLz4=
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1077 z1060 z1047 z1039 z1034 z1052 z1043 z1045 z1142 z1055 z1040 z1033 z1070"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1045 z1077 z1060 z1047 z1142 z1039 z1040 z1034 z1033 z1055 z1070 z1043 z1052"></relationship>
     </object>
     <object type="ASSET" id="z1032">
         <attribute name="content" type="binary">PHNjcmlwdCBzcmM9ImpxdWVyeS0xLjYuMi5qcyIgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij48L3Nj
@@ -5727,7 +5727,7 @@ IHRvIGZpcmUgc2NyaXB0CjxidXR0b24gb25jbGljaz0icHJvY2VzcygpIj4gQnV0dG9uIDwvYnV0dG9u
     </object>
     <object type="TAG" id="z1090">
         <attribute name="name" type="string">xml</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1087 z1189 z1121 z1203"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1087 z1189 z1121 z1203 z1385"></relationship>
     </object>
     <object type="TAG" id="z1091">
         <attribute name="name" type="string">ajax</attribute>
@@ -5739,7 +5739,7 @@ IHRvIGZpcmUgc2NyaXB0CjxidXR0b24gb25jbGljaz0icHJvY2VzcygpIj4gQnV0dG9uIDwvYnV0dG9u
     </object>
     <object type="TAG" id="z1093">
         <attribute name="name" type="string">http</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1087"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1396 z1087"></relationship>
     </object>
     <object type="ASSET" id="z1094">
         <attribute name="sort" type="int32">-1</attribute>
@@ -6260,7 +6260,7 @@ IGV2ZXJ5d2hlcmUgd2hlcmUgaXQncyBmdW5jdGlvbiBpcwovLyAgIG5lZWRlZAoKLy8yLiBVc2FnZQpV
     </object>
     <object type="TAG" id="z1178">
         <attribute name="name" type="string">size</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1247 z1174"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1174 z1366 z1247"></relationship>
     </object>
     <object type="ASSET" id="z1179">
         <attribute name="sort" type="int32">1</attribute>
@@ -6587,7 +6587,7 @@ YSBlbmNvZGluZzpOU0FTQ0lJU3RyaW5nRW5jb2RpbmddOwoKTlNEYXRhICpteURhdGEgPSBbbXlTdHJp
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.m</attribute>
         <attribute name="content" type="binary">Ly9BZGQgZm9sbG93aW5nIHRvIEFwcERlbGVnYXRlCltbVUlBcHBsaWNhdGlvbiBzaGFyZWRBcHBs
-aWNhdGlvbl0gc2V0U3RhdHVzQmFySGlkZGVuOllFU107
+aWNhdGlvbl0gc2V0U3RhdHVzQmFySGlkZGVuOllFU107CgovL29yIHVuZGVyIFRhcmdldHMtPiBpbmZvIGFkZCBmb2xsb3dpbmcga2V5IGFuZCB2YWx1ZToKU3RhdHVzIGJhciBpcyBpbml0aWFsbHkgaGlkZGVuIFlFUw==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1231"></relationship>
     </object>
@@ -6629,7 +6629,7 @@ aWNhdGlvbl0gc2V0U3RhdHVzQmFySGlkZGVuOllFU107
     </object>
     <object type="TAG" id="z1241">
         <attribute name="name" type="string">json</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1274 z1239 z1281"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1239 z1385 z1274 z1281"></relationship>
     </object>
     <object type="ASSET" id="z1242">
         <attribute name="sort" type="int32">-1</attribute>
@@ -6773,7 +6773,7 @@ b3VyIGFwcGxpY2F0aW9uIGRvIHRoZSBmb2xsb3dpbmc6CkVub2RhQXBwRGVsZWdhdGUgKmFwcERlbGVn
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1264 z1145"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1145 z1264"></relationship>
     </object>
     <object type="ASSET" id="z1270">
         <attribute name="content" type="binary">Ly9JbiB0aGUgVmlldyBDb250cm9sbGVyIHdoZXJlIHRoZSBiYWNrIGJ1dHRvbiBpcyBkaXNwbGF5
@@ -6862,7 +6862,7 @@ dG8gYW4gYXJyYXkKLy9kZWNsYXJlICJtYXN0ZXIiIGFycmF5IGJlZm9yZWhhbmQsIHRoYXQgd2lsbCBo
     </object>
     <object type="TAG" id="z1282">
         <attribute name="name" type="string">encode</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1281"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z975 z1281"></relationship>
     </object>
     <object type="TAG" id="z1283">
         <attribute name="name" type="string">json_encode</attribute>
@@ -6978,7 +6978,7 @@ ZVJvdW5kZWRSZWN0XTsKW215QnV0dG9uIHNldEZyYW1lOkNHUmVjdE1ha2UoMTAwLCAxMDAsIDEwMCwg
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1327 z1305 z1302 z1315 z1317 z1321 z1324"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1317 z1324 z1321 z1305 z1302 z1327 z1315"></relationship>
     </object>
     <object type="SNIPPET" id="z1302">
         <attribute name="name" type="string">Wordpress Basic Setup</attribute>
@@ -7248,5 +7248,436 @@ LShCT09MKSBpc09yaWVudGF0aW9uTGFuZHNjYXBlOihVSUludGVyZmFjZU9yaWVudGF0aW9uKSBvcmll
     <object type="TAG" id="z1346">
         <attribute name="name" type="string">uivdevice</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1343"></relationship>
+    </object>
+    <object type="ASSET" id="z1347">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <attribute name="content" type="binary">QGNsYXNzCi8vVXNlIHRoaXMgdG8gZm9yd2FyZCBkZWNsYXJlIGEgY2xhc3MgYW5kIHVzaW5nIGl0
+J3MgbWVtYmVyIFZhcmlhYmxlcyB3aXRob3V0IG5lZWQgdG8gdXNlICNpbXBvcnQK
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1348"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1348">
+        <attribute name="name" type="string">Compiler Directives @</attribute>
+        <attribute name="modified" type="date">340823211.11772000789642333984</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z143"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1347"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z1350 z1351 z307 z1349 z282 z1353 z163 z217"></relationship>
+    </object>
+    <object type="TAG" id="z1349">
+        <attribute name="name" type="string">directives</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1348"></relationship>
+    </object>
+    <object type="TAG" id="z1350">
+        <attribute name="name" type="string">compiler</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1348"></relationship>
+    </object>
+    <object type="TAG" id="z1351">
+        <attribute name="name" type="string">atomic</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1348"></relationship>
+    </object>
+    <object type="TAG" id="z1352">
+        <attribute name="name" type="string">retian</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z1353">
+        <attribute name="name" type="string">@class</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1348"></relationship>
+    </object>
+    <object type="ASSET" id="z1354">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <attribute name="content" type="binary">Ly9DYWxsIHRoaXMgYW5kIHRoZSB1c2VyIHdpbGwgYmUgc2VudCB0byB0aGUgcmF0ZS9yZXZpZXcg
+c2NyZWVuIGluIGlUdW5lcyBvbiBpT1MKCi8vaU9TCmludCBBcHBJZCA9IDQyNzU0MTY4MTsKTlNTdHJpbmcgKmZvcm1hdGVkTGluayA9IFtOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiaXRtcy1hcHBzOi8vYXguaXR1bmVzLmFwcGxlLmNvbS9XZWJPYmplY3RzL01aU3RvcmUud29hL3dhL3ZpZXdDb250ZW50c1VzZXJSZXZpZXdzP3R5cGU9UHVycGxlK1NvZnR3YXJlJmlkPSVpIiwgQXBwSWRdOwpbW1VJQXBwbGljYXRpb24gc2hhcmVkQXBwbGljYXRpb25dIG9wZW5VUkw6W05TVVJMIFVSTFdpdGhTdHJpbmc6Zm9ybWF0ZWRMaW5rXV07CgoKLy9NQUMKaW50IEFwcElkID00NDYxMDI1MzY7Ck5TU3RyaW5nICpmb3JtYXRlZExpbmsgPSBbTlNTdHJpbmcgc3RyaW5nV2l0aEZvcm1hdDpAIm1hY2FwcHN0b3JlOi8vaXR1bmVzLmFwcGxlLmNvbS9hcHAvaWQlaSIsIEFwcElkXTsKW1tOU1dvcmtzcGFjZSBzaGFyZWRXb3Jrc3BhY2VdIG9wZW5VUkw6W05TVVJMIFVSTFdpdGhTdHJpbmc6Zm9ybWF0ZWRMaW5rXV07
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1355"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1355">
+        <attribute name="name" type="string">Open iTunes Rate Screen from App</attribute>
+        <attribute name="modified" type="date">341068427.40132302045822143555</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z630"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1354"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z1359 z590 z1357 z1360 z1358 z1356 z627"></relationship>
+    </object>
+    <object type="TAG" id="z1356">
+        <attribute name="name" type="string">appstore</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1355"></relationship>
+    </object>
+    <object type="TAG" id="z1357">
+        <attribute name="name" type="string">nsworkspace</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1355"></relationship>
+    </object>
+    <object type="TAG" id="z1358">
+        <attribute name="name" type="string">itunes</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1355"></relationship>
+    </object>
+    <object type="TAG" id="z1359">
+        <attribute name="name" type="string">rate</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1355"></relationship>
+    </object>
+    <object type="TAG" id="z1360">
+        <attribute name="name" type="string">macappstore</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1355"></relationship>
+    </object>
+    <object type="LIST" id="z1361">
+        <attribute name="sort" type="int16">19</attribute>
+        <attribute name="name" type="string">GLKit</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1363"></relationship>
+    </object>
+    <object type="ASSET" id="z1362">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <attribute name="content" type="binary">Ly8xLiBDcmVhdGUgYW4gZW1wdHkgUHJvamVjdAoKLy8yLiBBZGQgR0xLaXQsIE9wZW5HTEVTIGFu
+ZCBRdWFydHpDb3JlIGZyYW1ld29ya3MgdG8gdGhlIHByb2plY3QKCi8vMy4gSW4gdGhlIEFwcERlbGVnYXRlIGhlYWRlciBpbXBvcnQgdGhlIEdMS2l0IGZyYW1ld29yawojaW1wb3J0IDxHTEtpdC9HTEtpdC5oPgoKLy80LiBJbXBsZW1lbnQgdGhlIEdMS1ZpZXcgYW5kIEdMS1ZpZXdDb250cm9sbGVyIERlbGVnYXRlcwo8R0xLVmlld0RsZWdhdGUsIEdMS1ZpZXdDb250cm9sbGVyRGVsZWdhdGU+CgovLzUuIEluIHRoZSBBcHBEZWxlZ2F0ZSAiYXBwbGljYXRpb25EaWRGaW5pc2hMYXVuY2hpbmciIG1ldGhvZHMgc2V0IHVwIHRoZSBHTEtWaWV3LS9jb250cm9sbGVyCi8vU2V0dXAgY29udGV4dCBuZWNlc3NhcnkgdG8gcmVuZGVyIHdpdGggT3BlbkdMCkVBR0xDb250ZXh0ICplYWdsQ29udGV4dCA9IFtbRUFHTENvbnRleHQgYWxsb2NdIGluaXRXaXRoQVBJOmtFQUdMUmVuZGVyaW5nQVBJT3BlbkdMRVMyXTsKW0VBR0xDb250ZXh0IHNldEN1cnJlbnRDb250ZXh0OmVhZ2xDb250ZXh0XTsKICAKLy9UaGUgR0xLVmlldyBhY3R1YWxseSByZW5kZXJzIG91ciBzY2VuZQpHTEtWaWV3ICpnbGtWaWV3ID0gW1tHTEtWaWV3IGFsbG9jXSBpbml0V2l0aEZyYW1lOltbVUlTY3JlZW4gbWFpblNjcmVlbl0gYm91bmRzXSBjb250ZXh0OmVhZ2xDb250ZXh0XTsKZ2xrVmlldy5kZWxlZ2F0ZSA9IHNlbGY7CgovL0luaXQgR0xLVmlld0NvbnRyb2xsZXIgd2l0aCBHTEtWaWV3IGFuZCBkZWxlZ2F0ZQpHTEtWaWV3Q29udHJvbGxlciAqZ2xrVmlld0NvbnRyb2xsZXIgPSBbW0dMS1ZpZXdDb250cm9sbGVyIGFsbG9jXSBpbml0XTsKZ2xrVmlld0NvbnRyb2xsZXIuZGVsZWdhdGUgPSBzZWxmOwpnbGtWaWV3Q29udHJvbGxlci52aWV3ID0gZ2xrVmlldzsKCi8vYWRkIHRoZSBDb250cm9sbGVyIHRvIHRoZSBXaW5kb3cKc2VsZi53aW5kb3cgPSBbW1VJV2luZG93IGFsbG9jXSBpbml0V2l0aEZyYW1lOltbVUlTY3JlZW4gbWFpblNjcmVlbl0gYm91bmRzXV07CnNlbGYud2luZG93LnJvb3RWaWV3Q29udHJvbGxlciA9IGdsa1ZpZXdDb250cm9sbGVyOwpbc2VsZi53aW5kb3cgbWFrZUtleUFuZFZpc2libGVdOwpyZXR1cm4gWUVTOwoKCi8vNi4gRGVsZWdhdGUgTWV0aG9kcwovL0RyYXdzIHRoZSBzY2VuZQotKHZvaWQpIGdsa1ZpZXc6KEdMS1ZpZXcgKil2aWV3IGRyYXdJblJlY3Q6KENHUmVjdClyZWN0IHsKICAgIGdsQ2xlYXJDb2xvcigwLjUsIDAuNSwgMC41LCAxKTsKICAgIGdsQ2xlYXIoR0xfQ09MT1JfQlVGRkVSX0JJVCk7Cn0KLy9NYW5hZ2VzIFN0YXRlCi0odm9pZCkgZ2xrVmlld0NvbnRyb2xsZXJVcGRhdGU6KEdMS1ZpZXdDb250cm9sbGVyICopY29udHJvbGxlciB7CiAgICAKfQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1363"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1363">
+        <attribute name="name" type="string">Set Up Basic Project</attribute>
+        <attribute name="modified" type="date">341148499.51340198516845703125</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z1361"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1362"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z107 z1364 z1365 z603"></relationship>
+    </object>
+    <object type="TAG" id="z1364">
+        <attribute name="name" type="string">eagl</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1363"></relationship>
+    </object>
+    <object type="TAG" id="z1365">
+        <attribute name="name" type="string">glkit</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1363"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1366">
+        <attribute name="name" type="string">Get Screen Size (CGRect)</attribute>
+        <attribute name="modified" type="date">341148700.23014098405838012695</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z630"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1367"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z503 z1178 z1370 z1369 z502 z1368"></relationship>
+    </object>
+    <object type="ASSET" id="z1367">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <attribute name="content" type="binary">Ly9SZXR1cm5zIGEgQ0dSZWN0IHdpdGggdGhlIHNjcmVlbnMgc2l6ZQpbVUlTY3JlZW4gbWFpblNj
+cmVlbl0gYm91bmRzXTs=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1366"></relationship>
+    </object>
+    <object type="TAG" id="z1368">
+        <attribute name="name" type="string">cgrect</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1366"></relationship>
+    </object>
+    <object type="TAG" id="z1369">
+        <attribute name="name" type="string">bounds</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1366"></relationship>
+    </object>
+    <object type="TAG" id="z1370">
+        <attribute name="name" type="string">uiscreen</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1366"></relationship>
+    </object>
+    <object type="TAG" id="z1371">
+        <attribute name="name" type="string">tableview</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1374"></relationship>
+    </object>
+    <object type="ASSET" id="z1372">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <attribute name="content" type="binary">Ly9XaGVuIHRoaXMgY29kZSBpcyBleGVjdXRlZCBpdCB3aWxsIGF1dG9tYXRpY2FsbHkvYW5pbWF0
+ZWQgc2Nyb2xsIHRvIHNhaWQgY2VsbCBpbiByb3cvc2VjdGlvbgpOU0luZGV4UGF0aCAqaSA9IFtOU0luZGV4UGF0aCBpbmRleFBhdGhGb3JSb3c6MCBpblNlY3Rpb246MF07CltuYW1lc1RhYmxlVmlldyBzY3JvbGxUb1Jvd0F0SW5kZXhQYXRoOmkgYXRTY3JvbGxQb3NpdGlvbjpVSVRhYmxlVmlld1Njcm9sbFBvc2l0aW9uTm9uZSBhbmltYXRlZDpZRVNdOw==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1374"></relationship>
+    </object>
+    <object type="TAG" id="z1373">
+        <attribute name="name" type="string">section</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1374"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1374">
+        <attribute name="name" type="string">Scroll to Row/Section in TableView</attribute>
+        <attribute name="modified" type="date">341156624.17523699998855590820</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z630"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1372"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z1371 z1004 z736 z731 z405 z1373"></relationship>
+    </object>
+    <object type="ASSET" id="z1375">
+        <attribute name="notes" type="string">Originaly from http://de-co-de.blogspot.com/2009/03/moving-uitextfield-above-keyboard.html</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <attribute name="content" type="binary">Ly8xLiBMaW5rIHVwIHRoZSBVVGV4dEZpZWxkJ3MgT3V0bGV0cy9EZWxlZ2F0ZXMgaW4gSUIgdG8g
+dGhlIENsYXNzCgovLzIuIEFkZCB0aGUgVUlUZXh0RmllbGREZWxlZ2F0ZSBpbiB0aGUgSGVhZGVyIG9mIHRoZSBjbGFzcwo8VUlUZXh0RmllbGREZWxlZ2F0ZT4KCi8vMy4gRGVjbGFyZSBmb2xsb3dpbmcgdmFyaWFibGUgaW4gdGhlIGhlYWRlcgppbnQgdmVydGljYWxPZmZzZXQ7CgovLzQuIEltcGxlbWVudCBGb2xsb3dpbmcgTWV0aG9kcwotICh2b2lkKW1vdmVWaWV3OihpbnQpb2Zmc2V0CnsKICAgIFtVSVZpZXcgYmVnaW5BbmltYXRpb25zOm5pbCBjb250ZXh0Ok5VTExdOwogICAgW1VJVmlldyBzZXRBbmltYXRpb25EdXJhdGlvbjowLjNdOwogICAgQ0dSZWN0IHJlY3QgPSBzZWxmLnZpZXcuZnJhbWU7CiAgICByZWN0Lm9yaWdpbi55IC09IG9mZnNldDsKICAgIHJlY3Quc2l6ZS5oZWlnaHQgKz0gb2Zmc2V0OwogICAgc2VsZi52aWV3LmZyYW1lID0gcmVjdDsKICAgIAogICAgW1VJVmlldyBjb21taXRBbmltYXRpb25zXTsKfQoKCi0gKEJPT0wpdGV4dEZpZWxkU2hvdWxkUmV0dXJuOihVSVRleHRGaWVsZCAqKSBzZW5kZXIgewogICAgW3NlbmRlciByZXNpZ25GaXJzdFJlc3BvbmRlcl07CiAgICBpZiAodmVydGljYWxPZmZzZXQhPTApCiAgICB7CiAgICAgICAgW3NlbGYgbW92ZVZpZXc6IC12ZXJ0aWNhbE9mZnNldF07CiAgICAgICAgdmVydGljYWxPZmZzZXQgPSAwOwogICAgfQogICAgcmV0dXJuIFRSVUU7Cn0KCi0gKHZvaWQpdGV4dEZpZWxkRGlkQmVnaW5FZGl0aW5nOihVSVRleHRGaWVsZCAqKXRoZVRleHRGaWVsZAp7CiAgICBpbnQgd2FudGVkT2Zmc2V0ID0gdGhlVGV4dEZpZWxkLmZyYW1lLm9yaWdpbi55LTIwMDsKICAgIGlmICggd2FudGVkT2Zmc2V0IDwgMCApIHsgCiAgICAgICAgd2FudGVkT2Zmc2V0ID0gMDsKICAgIH0gCiAgICBpZiAoIHdhbnRlZE9mZnNldCAhPSB2ZXJ0aWNhbE9mZnNldCApIHsKICAgICAgICBbc2VsZiBtb3ZlVmlldzogd2FudGVkT2Zmc2V0IC0gdmVydGljYWxPZmZzZXRdOwogICAgICAgIHZlcnRpY2FsT2Zmc2V0ID0gd2FudGVkT2Zmc2V0OwogICAgfQp9
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1376"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1376">
+        <attribute name="name" type="string">Animate UITextField above keyboard</attribute>
+        <attribute name="modified" type="date">341438457.57243102788925170898</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z630"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1375"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z635 z1378 z977 z120 z626 z1377"></relationship>
+    </object>
+    <object type="TAG" id="z1377">
+        <attribute name="name" type="string">textfield</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1376"></relationship>
+    </object>
+    <object type="TAG" id="z1378">
+        <attribute name="name" type="string">first responder</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1376"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1379">
+        <attribute name="name" type="string">Create Directory</attribute>
+        <attribute name="modified" type="date">341447636.54720401763916015625</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z616"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1380"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z1381 z1382 z1383 z1384"></relationship>
+    </object>
+    <object type="ASSET" id="z1380">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <attribute name="content" type="binary">Ly9DaGVjayBpZiBkaXJlY3RvcnkgZXhpc3RzLCBpZiBub3QgaXQgY3JlYXRlcyBpdAokbmV3Rm9s
+ZGVyTmFtZSA9ICdteUZvbGRlcic7CmlmICghZmlsZV9leGlzdHMoJy4vZm9sZGVyLycuJG5ld0ZvbGRlck5hbWUpKSB7Cglta2RpcignLi9mb2xkZXIvJyAuICRuZXdGb2xkZXJOYW1lKTsKfQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1379"></relationship>
+    </object>
+    <object type="TAG" id="z1381">
+        <attribute name="name" type="string">mkdir</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1379"></relationship>
+    </object>
+    <object type="TAG" id="z1382">
+        <attribute name="name" type="string">folder</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1379"></relationship>
+    </object>
+    <object type="TAG" id="z1383">
+        <attribute name="name" type="string">directory</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1379"></relationship>
+    </object>
+    <object type="TAG" id="z1384">
+        <attribute name="name" type="string">file_exists</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1379"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1385">
+        <attribute name="name" type="string">Create File / Write File</attribute>
+        <attribute name="modified" type="date">341447914.88447099924087524414</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z616"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1386"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z1389 z1388 z1090 z1241 z118 z1387"></relationship>
+    </object>
+    <object type="ASSET" id="z1386">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <attribute name="content" type="binary">Ly9Xcml0ZSBhIGZpbGUgdG8gYSBzcGVjaWZpYyBkaXJlY3RvcnkKJGZwID0gZm9wZW4oJy4vbXlm
+aWxlLnR4dCcsICd3Jyk7CmZ3cml0ZSgkZnAsICd0aGlzIGlzIG15IHRleHQgZmlsZScpOwpmY2xvc2UoJGZwKTsKCgovL2V4YW1wbGUgb2YgY3JlYXRpbmcgYSAuanNvbiBmaWxlCiRmcCA9IGZvcGVuKCcuL215Rm9sZGVyL2ZpbGUuanNvbicsICd3Jyk7CiRqc29uID0gJ3sianNvbl9vYmplY3QiOicgLiBqc29uX2VuY29kZSgkZGF0YSkgLiAnfSc7CmZ3cml0ZSgkZnAsICRqc29uKTsKZmNsb3NlKCRmcCk7
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1385"></relationship>
+    </object>
+    <object type="TAG" id="z1387">
+        <attribute name="name" type="string">txt</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1385"></relationship>
+    </object>
+    <object type="TAG" id="z1388">
+        <attribute name="name" type="string">file</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1385"></relationship>
+    </object>
+    <object type="TAG" id="z1389">
+        <attribute name="name" type="string">fwrite</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1385"></relationship>
+    </object>
+    <object type="TAG" id="z1390">
+        <attribute name="name" type="string">sha1</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z975"></relationship>
+    </object>
+    <object type="TAG" id="z1391">
+        <attribute name="name" type="string">core graphics</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1393"></relationship>
+    </object>
+    <object type="ASSET" id="z1392">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <attribute name="content" type="binary">Ly8xLiBJbXBvcnQgUXVhcnR6Q29yZQojaW1wb3J0IDxRdWFydHpDb3JlL1F1YXJ0ekNvcmUuaD4K
+Ci8vMi4gQWRkIFNoYWRvdyB0byBhbnkgdmlldyBlLmcuIFVJVGV4dEZpZWxkCi8vICAgV29ya3Mgd2l0aCBVSVZpZXcsIFVJSW1hZ2VWaWV3LCBldmVyeXRoaW5nCnNlbGYudXNlcm5hbWVGaWVsZC5sYXllci5zaGFkb3dPcGFjaXR5ID0gMS4wOwpzZWxmLnVzZXJuYW1lRmllbGQubGF5ZXIuc2hhZG93UmFkaXVzID0gMC4wOwpzZWxmLnVzZXJuYW1lRmllbGQubGF5ZXIuc2hhZG93Q29sb3IgPSBbVUlDb2xvciB3aGl0ZUNvbG9yXS5DR0NvbG9yOwpzZWxmLnVzZXJuYW1lRmllbGQubGF5ZXIuc2hhZG93T2Zmc2V0ID0gQ0dTaXplTWFrZSgxLjAsIDEuMCk7
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1393"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1393">
+        <attribute name="name" type="string">Add Shadow to a View</attribute>
+        <attribute name="modified" type="date">341511384.42975497245788574219</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z630"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1392"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z769 z1391 z635 z1394"></relationship>
+    </object>
+    <object type="TAG" id="z1394">
+        <attribute name="name" type="string">quartzcore</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1393"></relationship>
+    </object>
+    <object type="TAG" id="z1395">
+        <attribute name="name" type="string">case</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1396">
+        <attribute name="name" type="string">AFNetworking / HTTP POST Request </attribute>
+        <attribute name="modified" type="date">341533854.01168197393417358398</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z143"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1397 z1398"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z908 z1401 z1403 z1400 z621 z1402 z1093 z1399"></relationship>
+    </object>
+    <object type="ASSET" id="z1397">
+        <attribute name="content" type="binary">Ly8xLiBJbXBvcnQgdGhlIG5lY2Vzc2FyeSBBRk5ldHdvcmtpbmcgQ2xhc3NlcwoKLy8yLiBDcmVh
+dGUgYW4gbmV3IFVSTFJlcXVlc3QgKG11dGFibGUgYmVjYXVzZSB5b3VyIGFkZGluZyB0aGluZ3MgdG8gaXQpCi8vCSBhbmQgYWRkIHdoYXRldmVyIHlvdSB3YW50IHRvIHBvc3QgdG8gdGhlIHNlcnZlciB1cmwKTlNNdXRhYmxlVVJMUmVxdWVzdCAqcmVxdWVzdCA9IFtOU011dGFibGVVUkxSZXF1ZXN0IHJlcXVlc3RXaXRoVVJMOltOU1VSTCBVUkxXaXRoU3RyaW5nOkAiaHR0cDovL2FwaS5teWFwcC5jb20vbG9naW4vIl1dOwpbcmVxdWVzdCBzZXRIVFRQTWV0aG9kOkAiUE9TVCJdOwoKTlNTdHJpbmcgKnBvc3RTdHJpbmcgPSBbTlNTdHJpbmcgc3RyaW5nV2l0aEZvcm1hdDpAIiZ1c2VybmFtZT0lQCZwYXNzd29yZD0lQCIsIHVzZXJuYW1lU3RyaW5nLCBwYXNzd29yZFN0cmluZ107Ck5TRGF0YSAqZGF0YSA9IFtOU0RhdGEgZGF0YVdpdGhCeXRlczpbbXlTdHJpbmcgVVRGOFN0cmluZ10gbGVuZ3RoOltteVN0cmluZyBsZW5ndGhdXTsKW3JlcXVlc3Qgc2V0SFRUUEJvZHk6ZGF0YV07CgovLzMuIENyZWF0ZSBhIEhUVFBSZXF1ZXN0T3BlcmF0aW9uCkFGSFRUUFJlcXVlc3RPcGVyYXRpb24gKm9wZXJhdGlvbiA9IFtBRkhUVFBSZXF1ZXN0T3BlcmF0aW9uIEhUVFBSZXF1ZXN0T3BlcmF0aW9uV2l0aFJlcXVlc3Q6cmVxdWVzdCBzdWNjZXNzOl4oaWQgb2JqZWN0KSB7CgkvL0NhbGxlZCBvbiBTdWNjZXNzIC0gSGFuZGxlIG91dHB1dCBmcm9tIHNlcnZlciBoZXJlCgkvL1VzZSBBRkpTT05SZXF1ZXN0T3BlcmF0aW9uIGZvciBKU09OCgkvLwkgIEFGWE1MUmVndWVzdE9wZXJhdGlvbiBmb3IgWE1MCn0gZmFpbHVyZTpeKE5TSFRUUFVSTFJlc3BvbnNlICpyZXNwb25zZSwgTlNFcnJvciAqZXJyb3IpIHsKCU5TTG9nKEAiRXJyb3I6ICVAIiwgZXJyb3IpOwp9XTsKCi8vNC4gYW5kIGFkZCBpdCB0byBhbiBvcGVyYXRpb24gcXVldWUKTlNPcGVyYXRpb25RdWV1ZSAqcXVldWUgPSBbW1tOU09wZXJhdGlvblF1ZXVlIGFsbG9jXSBpbml0XSBhdXRvcmVsZWFzZV07CltxdWV1ZSBhZGRPcGVyYXRpb246b3BlcmF0aW9uXTsKCgovLzUuIFNlZSBteWFwcC5waHAgZm9yIHNlcnZlciBlbmQgaG5hZGVsaW5n
+</attribute>
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">iOS.m</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1396"></relationship>
+    </object>
+    <object type="ASSET" id="z1398">
+        <attribute name="content" type="binary">PD9waHAgCgkkdXNlcm5hbWVIb2xkZXIgPSAkX1BPU1RbJ3VzZXJuYW1lJ107CgkkcGFzc3dvcmRI
+b2xkZXIgPSAkX1BPU1RbJ3Bhc3N3b3JkJ107CgkKCS8vRG8gc3R1ZmYgd2l0aCB0aGUgaW5mbwo/Pg==
+</attribute>
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">myApp.php</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1396"></relationship>
+    </object>
+    <object type="TAG" id="z1399">
+        <attribute name="name" type="string">afnetworking</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1396"></relationship>
+    </object>
+    <object type="TAG" id="z1400">
+        <attribute name="name" type="string">nsmutableurlrequest</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1396"></relationship>
+    </object>
+    <object type="TAG" id="z1401">
+        <attribute name="name" type="string">urlrequest</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1396"></relationship>
+    </object>
+    <object type="TAG" id="z1402">
+        <attribute name="name" type="string">server</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1396"></relationship>
+    </object>
+    <object type="TAG" id="z1403">
+        <attribute name="name" type="string">$_POST</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1396"></relationship>
+    </object>
+    <object type="ASSET" id="z1404">
+        <attribute name="content" type="binary">Ly8xLiBBZGQgUXVhcnR6Q29yZSBGcmFtZXdvcmsgdG8gdGhlIHByb2plY3QgYW5kIHRoZSBTVlBy
+b2dyZXNzSFVEIGNsYXNzZXMgKERMIExpbmsgYWJvdmUpCgovLzIuIEltcG9ydCBDbGFzcydzCiNpbXBvcnQgIlNWUHJvZ3Jlc3NIVUQuaCIKCi8vU2hvdyBCYXNpYyBwcm9ncmVzcyBJbmRpY2F0b3Igd2l0aG91dCBibG9ja2luZyBVSQpbU1ZQcm9ncmVzc0hVRCBzaG93V2l0aE1hc2tUeXBlOlNWUHJvZ3Jlc3NIVURNYXNrVHlwZU5vbmVdOwovL1Nob3cgcHJvZ3Jlc3Mgd2l0aCB0ZXh0IGFuZCBuZXR3b3JrIGluZGljYXRvciBpbiBzdGF0dXNiYXIKW1NWUHJvZ3Jlc3NIVUQgc2hvd1dpdGhTdGF0dXM6QCJDb25uZWN0aW5nLi4uIiBtYXNrVHlwZTpTVlByb2dyZXNzSFVETWFza1R5cGVOb25lIG5ldHdvcmtJbmRpY2F0b3I6WUVTXTsKCi8vRGlzbWlzcyBwcm9ncmVzcyBJbmRpY2F0b3IKW1NWUHJvZ3Jlc3NIVUQgZGlzbWlzc107CgovL0Rpc21pc3Mgd2l0aCBzdWNjZXNzIGFuZCBUZXh0CltTVlByb2dyZXNzSFVEIGRpc21pc3NXaXRoU3VjY2VzczpAIlN1Y2Nlc3NmdWwiXQovL0Rpc21pc3Mgd2l0aCBlcnJvciAvIGhpZGVzIGFmdGVyIDEgc2Vjb25kCltTVlByb2dyZXNzSFVEIGRpc21pc3NXaXRoRXJyb3I6QCJFcnJvciIgYWZ0ZXJEZWxheToxXTsKCgoKLy9XaGVuIHVzaW5nIFNWUHJvZ3Jlc3NIVUQgaW4gb25lIFZpZXcgYW5kIHRoZW4gc2hvd2luZyBpdCBpbiBhbm90aGVyIHZpZXcgKHByZXNlbnRNb2RhbOKApikKLy91c2UgZm9sbG93aW5nIHRvIHNob3cgSFVELCBvdGhlcndpZXNlIGl0J2xsIHNob3cgdXAgaW4gdGhlIGZpcnN0IHZpZXcKW1NWUHJvZ3Jlc3NIVUQgc2hvd0luVmlldzpzZWxmLnZpZXddOwoKCgoKCgoKCg==
+</attribute>
+        <attribute name="notes" type="string">https://github.com/samvermette/SVProgressHUD</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1405"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1405">
+        <attribute name="name" type="string">SVProgressHUD</attribute>
+        <attribute name="modified" type="date">341534677.54663097858428955078</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z143"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1404"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z396 z1407 z1406 z1408 z1409"></relationship>
+    </object>
+    <object type="TAG" id="z1406">
+        <attribute name="name" type="string">hud</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1405"></relationship>
+    </object>
+    <object type="TAG" id="z1407">
+        <attribute name="name" type="string">progress</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1405"></relationship>
+    </object>
+    <object type="TAG" id="z1408">
+        <attribute name="name" type="string">indicator</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1405"></relationship>
+    </object>
+    <object type="TAG" id="z1409">
+        <attribute name="name" type="string">notification</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1405"></relationship>
+    </object>
+    <object type="ASSET" id="z1410">
+        <attribute name="content" type="binary">Ly9GaW5pc2hlZCBtZXRob2QgdGhhdCByZXR1cm5zIGEgQk9PTCB2YWx1ZQotKEJPT0wpIHZhbGlk
+RW1haWw6KE5TU3RyaW5nKikgZW1haWxTdHJpbmcgewpOU1N0cmluZyAqcmVnRXhQYXR0ZXJuID0gQCJeW0EtWjAtOS5fJSstXStAW0EtWjAtOS4tXSsuW0EtWl17Miw0fSQiOwpOU1JlZ3VsYXJFeHByZXNzaW9uICpyZWdFeCA9IFtbTlNSZWd1bGFyRXhwcmVzc2lvbiBhbGxvY10gaW5pdFdpdGhQYXR0ZXJuOnJlZ0V4UGF0dGVybiBvcHRpb25zOk5TUmVndWxhckV4cHJlc3Npb25DYXNlSW5zZW5zaXRpdmUgZXJyb3I6bmlsXTsKTlNVSW50ZWdlciByZWdFeE1hdGNoZXMgPSBbcmVnRXggbnVtYmVyT2ZNYXRjaGVzSW5TdHJpbmc6ZW1haWxTdHJpbmcgb3B0aW9uczowIHJhbmdlOk5TTWFrZVJhbmdlKDAsIFtlbWFpbFN0cmluZyBsZW5ndGhdKV07CmlmIChyZWdFeE1hdGNoZXMgPT0gMCkgewogICAgcmV0dXJuIE5POwp9IGVsc2UKICAgIHJldHVybiBZRVM7Cn0KCi8vVXNhZ2UKaWYoW3NlbGYgdmFsaWRFbWFpbDpAIm5hbWVAZG9tYWluLmNvbSJdKSB7CiAgLy9FbWFpbCBBZGRyZXNzIGlzIHZhbGlkCn0gZWxzZSB7CiAgLy9FbWFpbCBBZGRyZXNzIGlzIG5vdCBWYWxpZAp9
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1411"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1411">
+        <attribute name="name" type="string">Validate Email Address</attribute>
+        <attribute name="modified" type="date">341543069.55024498701095581055</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z630"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1410"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z1413 z1415 z906 z1417 z1412 z1416 z1414"></relationship>
+    </object>
+    <object type="TAG" id="z1412">
+        <attribute name="name" type="string">email</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1411"></relationship>
+    </object>
+    <object type="TAG" id="z1413">
+        <attribute name="name" type="string">validate</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1411"></relationship>
+    </object>
+    <object type="TAG" id="z1414">
+        <attribute name="name" type="string">address</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1411"></relationship>
+    </object>
+    <object type="TAG" id="z1415">
+        <attribute name="name" type="string">regualr expression</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1411"></relationship>
+    </object>
+    <object type="TAG" id="z1416">
+        <attribute name="name" type="string"> nsregualrexpression</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1411"></relationship>
+    </object>
+    <object type="TAG" id="z1417">
+        <attribute name="name" type="string">validation</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1411"></relationship>
+    </object>
+    <object type="ASSET" id="z1418">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <attribute name="notes" type="string">requires 4.1+</attribute>
+        <attribute name="content" type="binary">Ly8xLiBEZWNsYXJlIHNoYXJlZF9DTEFTU05BTUVfIG1ldGhvZCBpbiBoZWFkZXIKKyAoaWQpc2hh
+cmVkQ2xhc3M7CgovLzIuIEltcGxlbWVudCBtZXRob2QgYW5kIHJlcGxhY2UgIl9DTEFTU05BTUVfIiB3aXRoIHJlYWxjbGFzcyBhbm1lCisgKGlkKXNoYXJlZENsYXNzCnsKICAgIHN0YXRpYyBkaXNwYXRjaF9vbmNlX3QgcHJlZDsKICAgIHN0YXRpYyBfQ0xBU1NOQU1FICpfY2xhc3NOYW1lXyA9IG5pbDsKICAgIAogICAgZGlzcGF0Y2hfb25jZSgmcHJlZCwgXnsgX2NsYXNzTmFtZV8gPSBbW3NlbGYgYWxsb2NdIGluaXRdOyB9KTsKICAgIHJldHVybiBfY2xhc3NOYW1lXzsKfQoKLy8zLiBBY2Nlc3MgdGhpcyBjbGFzcyBlLmcuIGl0J3MgcHJvcGVydGllcwpbX0NMQVNTTkFNRV8gc2hhcmVkQ2xhc3NdLnByb3BlcnR5TmFtZQovLyBDYWxsIE1ldGhvZApbW19DTEFTU05BTUVfIHNoYXJlZENsYXNzXSBteU1ldGhvZF07CgovLzQuIFVzaW5nIHRoaXMgdHlwZSBvZiBzaW5nZWx0b24gaW1wbGVtZW50YXRpb24gd2lsbCBzdGlsbCBhbGxvdyBhbiBhbGxvY2F0aW9uLAovLyAgIHNvIHRvIGtlZXAgaXQgYSBzaW5nbGV0b24gYWx3YXlzIHVzZSBbX0NMQVNTTkFNRV8gc2hhcmVkQ2xhc3NdIGluc3RlYWQgb2YgLi5hbGxvY11pbml0XQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1419"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1419">
+        <attribute name="name" type="string">Simple Singleton</attribute>
+        <attribute name="modified" type="date">341613942.47533297538757324219</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z143"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1418"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z577 z1420 z580 z1421"></relationship>
+    </object>
+    <object type="TAG" id="z1420">
+        <attribute name="name" type="string">gcd</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1419"></relationship>
+    </object>
+    <object type="TAG" id="z1421">
+        <attribute name="name" type="string">grand central dispatch</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1419"></relationship>
+    </object>
+    <object type="ASSET" id="z1422">
+        <attribute name="content" type="binary">Ly9Vc2UgYSB0ZXJuYXJ5IG9wZXJhdG9yIGUuZy4gd2hlbiBhc3NpZ25pbmcgYSB2YWx1ZSB0byBh
+IHZhcmlhYmxlL3BvaW50ZXIgd2hpY2ggZGVwZW5kcwovL29uIGEgc3BlY2lmaWMgY29uZGl0aW9u4oCmLnNpbXBsZXIgdGhhbiB1c2luZyBpZiAvIGVsc2UgCmludCBteUludCA9IDE7CiAgICAKTlNTdHJpbmcgKm15U3RyaW5nID0gKG15SW50ID09IDEpID8gQCJpdCdzIGEgeWVzIiA6IEAiaXQncyBhIG5vIjsKCgoKLy9TVFJVQ1RVUkUKQ2xhc3NOYW1lICpjbGFzc0luc3RhbmNlID0gKGNvbmRpdGlvbikgPyB2YWx1ZUlmVHJ1ZSA6IHZhbHVlSWZGYWxzZTsK
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.m</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1423"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1423">
+        <attribute name="name" type="string">Ternary Operator</attribute>
+        <attribute name="modified" type="date">341674436.82181197404861450195</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z143"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1422"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z849 z149"></relationship>
     </object>
 </database>
