@@ -2,6 +2,6 @@
 
 Have fun with it / use it as you please
 
-Most of the Entries aren't just snippets but small tutorials!
+######The Library features snippets / tutorials from various programming languages
 
 ###Status: 548 Snippets
